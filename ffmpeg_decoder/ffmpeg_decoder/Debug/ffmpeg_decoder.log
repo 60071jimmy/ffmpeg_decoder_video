@@ -1,0 +1,16 @@
+﻿生成启动时间为 2016/7/18 星期一 16:00:52。
+     1>项目“E:\code_decodec\ffmpeg_decoder\ffmpeg_decoder\ffmpeg_decoder.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Iinclude /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ffmpeg_decoder.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ffmpeg_decoder.cpp
+         ffmpeg_decoder.cpp
+     1>e:\code_decodec\ffmpeg_decoder\ffmpeg_decoder\ffmpeg_decoder.cpp(56): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\code_decodec\ffmpeg_decoder\ffmpeg_decoder\ffmpeg_decoder.cpp(107): warning C4101: “ret”: 未引用的局部变量
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code_decodec\ffmpeg_decoder\Debug\ffmpeg_decoder.exe" /INCREMENTAL /NOLOGO /LIBPATH:lib avcodec.lib avdevice.lib avfilter.lib avformat.lib avutil.lib postproc.lib swresample.lib swscale.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\code_decodec\ffmpeg_decoder\Debug\ffmpeg_decoder.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code_decodec\ffmpeg_decoder\Debug\ffmpeg_decoder.lib" /MACHINE:X86 Debug\ffmpeg_decoder.obj
+         Debug\stdafx.obj
+         ffmpeg_decoder.vcxproj -> E:\code_decodec\ffmpeg_decoder\Debug\ffmpeg_decoder.exe
+     1>已完成生成项目“E:\code_decodec\ffmpeg_decoder\ffmpeg_decoder\ffmpeg_decoder.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.39
